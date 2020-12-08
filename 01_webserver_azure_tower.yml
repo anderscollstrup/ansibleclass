@@ -1,4 +1,4 @@
-- hosts: solution_webserver_webuser2
+- hosts: webserver_6cb0
   become: yes
   vars:
     # websiteheader: "Ansible Playbook"

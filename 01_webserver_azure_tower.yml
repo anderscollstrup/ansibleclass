@@ -1,8 +1,8 @@
 - hosts: webserver_6cb0
   become: yes
   vars:
-    # websiteheader: "Ansible Playbook"
-    # websiteauthor: "Anders Collstrup"
+    websiteheader: "Ansible Playbook"
+    websiteauthor: "Anders Collstrup"
   tasks:
   - name: Install Apache
     dnf:
